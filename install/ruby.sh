@@ -13,5 +13,5 @@ if [ -d "${RBENV_ROOT}" ]; then
 fi
 EOF
 
-cp /home/vagrant/ssh/{*.pub,config} /home/vagrant/.ssh/
+cp /home/vagrant/ssh/{id_rsa,id_rsa.pub,config} /home/vagrant/.ssh/
 
