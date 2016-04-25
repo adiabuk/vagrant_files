@@ -2,7 +2,7 @@
 apt-add-repository -y ppa:chris-lea/node.js
 
 apt-get update
-apt-get -y install curl git-core nodejs rbenv
+apt-get -y install curl git-core nodejs rbenv python-pip
 
 cat >> ~/.bashrc << EOF
 
